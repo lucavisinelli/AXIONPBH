@@ -75,9 +75,10 @@ def Tf(GM2):
     return ((45*gamma**2)/(16*np.pi**3*GN**2*GM2*gSM))**(1/4)
 
 def chi(t):
+    # see e.g. 1610.01639, above Eq.144
     # QCD susceptibility in units of \Lambda^4
     # t is ln(T/GeV)
-    return min(1., (0.16/np.exp(t))**8.)
+    return min(1., (0.157/np.exp(t))**8.16)
  
 def Q(tau, GM2):
     t = tau + np.log(Tf(GM2))
