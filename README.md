@@ -12,7 +12,7 @@ The script for generating the results is in [`code/axionpbh_full.py`].
 ### Citation
 
 Please cite the associated paper:
-> K. Mazde and L. Visinelli, "The Interplay between the Dark Matter Axion and Primordial Black Holes" arXiv:
+> K. Mazde and L. Visinelli, "The Interplay between the Dark Matter Axion and Primordial Black Holes" arXiv:2209.14307
 
 ### Authors & Contact
 
